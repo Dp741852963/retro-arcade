@@ -1,8 +1,8 @@
 body {
-  background: #050010;
+  background: #0b0014;
   color: #00ffff;
-  font-family: Arial, sans-serif;
   text-align: center;
+  font-family: Arial;
 }
 
 h1 {
@@ -10,34 +10,16 @@ h1 {
   text-shadow: 0 0 10px #ff00ff;
 }
 
-input {
-  padding: 8px;
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-button {
+.menu button {
   background: black;
-  color: #00ffea;
-  border: 2px solid #00ffea;
-  padding: 12px 20px;
-  font-size: 16px;
+  color: #00ffff;
+  border: 2px solid #00ffff;
+  padding: 10px;
   margin: 5px;
-  box-shadow: 0 0 8px #00ffea;
-}
-
-button:active {
-  background: #00ffea;
-  color: black;
 }
 
 canvas {
-  display: block;
-  margin: 15px auto;
   background: black;
   border: 2px solid #ff00ff;
-}
-
-#leaderboard {
-  margin-top: 20px;
+  margin-top: 10px;
 }
