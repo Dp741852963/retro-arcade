@@ -5,6 +5,8 @@
 <title>Neon Retro Arcade</title>
 <link rel="stylesheet" href="style.css">
 </head>
+<link rel="manifest" href="manifest.json">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
 
 <h1>⚡ NEON RETRO ARCADE ⚡</h1>
@@ -17,7 +19,9 @@
   <button onclick="startWordle()">WORDLE</button>
 </div>
 
-<canvas id="gameCanvas" width="400" height="400"></canvas>
+<canvas id="gameCanvas" width="400" height="400">
+</canvas><div id="keyboard"></div>
+
 
 <h2>🏆 LEADERBOARD</h2>
 <ul id="scores"></ul>
